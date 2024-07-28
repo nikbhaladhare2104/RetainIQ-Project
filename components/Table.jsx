@@ -1,7 +1,6 @@
 "use client";
 import List from "../constants/data";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
-import Row from "./Row";
 import { useEffect, useState } from "react";
 
 export default function Table() {
